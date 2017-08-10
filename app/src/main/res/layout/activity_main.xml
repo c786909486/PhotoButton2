@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    >
+
+    <cn.ckz.takephotoview.TakePhotoButton
+        android:id="@+id/button_take"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        app:innerCircleColor="@android:color/holo_red_light"
+        app:readColor="@android:color/holo_red_light"
+        app:outCircleColor="@android:color/white"
+        />
+    <cn.ckz.takephotoview.TakePhotoButton
+        android:id="@+id/normal_btn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>
