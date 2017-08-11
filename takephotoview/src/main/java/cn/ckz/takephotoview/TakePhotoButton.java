@@ -121,11 +121,7 @@ public class TakePhotoButton extends View {
         outRoundPaint.setAntiAlias(true);
         outRoundPaint.setColor(outCircleColor);
         if (isLongClick){
-            setMinimumWidth((int) (width*1.2));
-           canvas.scale(1.2f,1.2f,width/2,width/2);
-
-        }else {
-            setMinimumWidth((int) width);
+            canvas.scale(1.2f,1.2f,width/2,height/2);
         }
         canvas.drawCircle(width/2,height/2, outRaduis, outRoundPaint);
         //画内圆
